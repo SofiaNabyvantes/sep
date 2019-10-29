@@ -24,8 +24,8 @@ def change_x(point, x):
 
 point_1 = Point(2,5)
 print(point_1)
-# change_x(point_1, 56)
- point_1.show()
+change_x(point_1, 56)
+point_1.show()
 
 point_3d = D3Point(12,15, 17)
 print(point_3d)
